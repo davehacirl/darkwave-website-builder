@@ -64,6 +64,11 @@ export default {
 					DEFAULT: '#6d28d9',
 					light: '#8b5cf6',
 					dark: '#5b21b6'
+				},
+				pink: {
+					DEFAULT: '#D946EF',
+					500: '#D946EF',
+					600: '#C026D3',
 				}
 			},
 			borderRadius: {
