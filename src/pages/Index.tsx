@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import ContactForm from '@/components/ContactForm';
@@ -17,11 +16,10 @@ import {
   Star,
   Clock,
   Users,
-  DataProcessors
+  ServerCog
 } from 'lucide-react';
 
 export default function Index() {
-  // Adding title to the page
   useEffect(() => {
     document.title = "Data Intelligence | Advanced Analytics Solutions";
   }, []);
@@ -157,7 +155,7 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="glass-panel p-6 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(0,112,243,0.15)]">
               <div className="w-14 h-14 rounded-full bg-blue/20 flex items-center justify-center mb-6">
-                <DataProcessors className="h-7 w-7 text-blue" />
+                <ServerCog className="h-7 w-7 text-blue" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Data Processing & Integration</h3>
               <p className="text-gray-400">
