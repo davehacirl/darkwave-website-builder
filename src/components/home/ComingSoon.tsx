@@ -20,7 +20,7 @@ export default function ComingSoon() {
           <div className="glass-panel p-6 border-t-4 border-t-blue">
             <div className="flex items-center mb-4">
               <Clock className="h-6 w-6 text-blue mr-3" />
-              <h3 className="text-xl font-semibold">Q3 2023</h3>
+              <h3 className="text-xl font-semibold">Q3 2025</h3>
             </div>
             <h4 className="text-lg font-medium mb-3">Real-Time Analytics Platform</h4>
             <p className="text-gray-400 mb-4">
@@ -35,7 +35,7 @@ export default function ComingSoon() {
           <div className="glass-panel p-6 border-t-4 border-t-purple">
             <div className="flex items-center mb-4">
               <Clock className="h-6 w-6 text-purple mr-3" />
-              <h3 className="text-xl font-semibold">Q4 2023</h3>
+              <h3 className="text-xl font-semibold">Q4 2025</h3>
             </div>
             <h4 className="text-lg font-medium mb-3">Advanced NLP Engine</h4>
             <p className="text-gray-400 mb-4">
@@ -50,7 +50,7 @@ export default function ComingSoon() {
           <div className="glass-panel p-6 border-t-4 border-t-blue">
             <div className="flex items-center mb-4">
               <Clock className="h-6 w-6 text-blue mr-3" />
-              <h3 className="text-xl font-semibold">Q1 2024</h3>
+              <h3 className="text-xl font-semibold">Q1 2026</h3>
             </div>
             <h4 className="text-lg font-medium mb-3">Data Intelligence Mobile App</h4>
             <p className="text-gray-400 mb-4">
