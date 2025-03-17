@@ -14,13 +14,15 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-dark bg-data-pattern bg-fixed overflow-x-hidden">
+    <div className="min-h-screen bg-dark text-foreground">
       <Navbar />
-      <Hero />
-      <AboutUs />
-      <OurSolution />
-      <ContactSection />
-      <ComingSoon />
+      <main>
+        <Hero />
+        <AboutUs />
+        <OurSolution />
+        <ContactSection />
+        <ComingSoon />
+      </main>
       <Footer />
     </div>
   );
