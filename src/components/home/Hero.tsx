@@ -1,5 +1,5 @@
 
-import { ArrowDown, Database, BarChart3 } from 'lucide-react';
+import { ArrowDown, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Hero() {
@@ -31,12 +31,7 @@ export default function Hero() {
           </div>
         </div>
         
-        {/* Animated data elements */}
-        <div className="hidden md:block absolute top-1/2 left-10 transform -translate-y-1/2">
-          <div className="relative">
-            <Database className="h-16 w-16 text-blue/30 animate-pulse-slow" />
-          </div>
-        </div>
+        {/* Animated data elements - removed the Database icon */}
         <div className="hidden md:block absolute top-1/3 right-10 transform -translate-y-1/2">
           <div className="relative">
             <BarChart3 className="h-14 w-14 text-purple/30 animate-pulse-slow" style={{ animationDelay: '1s' }} />
