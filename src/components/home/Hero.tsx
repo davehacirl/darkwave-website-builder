@@ -1,4 +1,3 @@
-
 import { ArrowDown, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -8,8 +7,8 @@ export default function Hero() {
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Transform Your <span className="text-gradient">Data</span> Into 
-            <span className="text-gradient"> Intelligence</span>
+            Welcome to <span className="text-gradient">dataintelligence.com</span>, your partner in 
+            <span className="text-gradient"> data-driven decisions</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed">
             Unlock the power of advanced analytics and AI-driven insights to make better business decisions.
