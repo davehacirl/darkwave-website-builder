@@ -10,7 +10,7 @@ export default function OurSolution() {
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Our <span className="text-gradient">Solution</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue to-purple mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-white to-white/70 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
             Comprehensive data intelligence solutions designed to transform raw data into actionable insights
           </p>
@@ -92,10 +92,10 @@ export default function OurSolution() {
         
         <div className="mt-16 text-center">
           <Button
-            className="bg-gradient-to-r from-blue to-purple hover:from-blue-light hover:to-purple-light text-white px-8 py-6 text-lg"
+            className="bg-white hover:bg-gray-200 text-black px-8 py-6 text-lg"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            <Zap className="mr-2 h-5 w-5" />
+            <Zap className="mr-2 h-5 w-5 text-black" />
             Book a Demo
           </Button>
         </div>

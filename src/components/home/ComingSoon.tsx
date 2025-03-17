@@ -10,7 +10,7 @@ export default function ComingSoon() {
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Coming <span className="text-gradient">Soon</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue to-purple mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-white to-white/70 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
             We're constantly innovating. Here's a sneak peek at what's next on our roadmap.
           </p>
