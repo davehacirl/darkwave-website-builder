@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold text-gradient">dataintelligence.com</h2>
+            <h2 className="text-2xl font-bold text-purple-light">dataintelligence.com</h2>
             <p className="text-gray-400 mt-2">Transform your data into intelligence</p>
           </div>
           

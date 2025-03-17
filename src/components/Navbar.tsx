@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-4 md:py-6">
           <div className="flex-shrink-0">
             <a href="#welcome" className="flex items-center">
-              <span className="text-xl md:text-2xl font-bold text-gradient tracking-tight">
+              <span className="text-xl md:text-2xl font-bold text-purple-light tracking-tight">
                 dataintelligence.com
               </span>
             </a>
