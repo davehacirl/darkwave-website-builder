@@ -53,8 +53,8 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				dark: '#1A1A1A',
-				'dark-accent': '#242424',
+				dark: '#080808',
+				'dark-accent': '#121212',
 				white: '#FFFFFF',
 				gray: {
 					100: '#F1F1F1',
@@ -66,17 +66,6 @@ export default {
 					700: '#404040',
 					800: '#262626',
 					900: '#171717'
-				},
-				sunset: {
-					orange: '#FF6B35',
-					'orange-light': '#FF8B60',
-					'orange-dark': '#E25A2C',
-					red: '#E63946',
-					blue: '#293B5F',
-					'blue-dark': '#1D2D4F',
-					'blue-light': '#3D5A80',
-					gold: '#FFB563',
-					'gray-dark': '#2F3E46'
 				}
 			},
 			borderRadius: {
@@ -117,9 +106,7 @@ export default {
 				'float': 'float 6s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'data-pattern': "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFFFFF' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
-				'sunset-gradient': "linear-gradient(to bottom, #1A1A1A, #293B5F)",
-				'sunset-overlay': "url('/lovable-uploads/277d2f8a-dd6c-484e-93e4-9f0a0afbd7ec.png')"
+				'data-pattern': "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFFFFF' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"
 			}
 		}
 	},

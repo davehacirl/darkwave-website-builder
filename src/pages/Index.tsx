@@ -14,7 +14,7 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-dark text-foreground">
       <Navbar />
       <main>
         <Hero />

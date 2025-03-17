@@ -3,13 +3,13 @@ import { Users, Star, Brain, Lock } from 'lucide-react';
 
 export default function AboutUs() {
   return (
-    <section id="about" className="py-20 bg-sunset-blue-dark/70">
+    <section id="about" className="py-20 bg-dark-accent/30">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             About <span className="text-gradient">Us</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-sunset-orange to-sunset-gold mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue to-purple mx-auto"></div>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -31,32 +31,32 @@ export default function AboutUs() {
           
           <div className="glass-panel p-8 grid grid-cols-2 gap-8">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-sunset-orange/20 flex items-center justify-center mb-4">
-                <Users className="h-8 w-8 text-sunset-orange" />
+              <div className="w-16 h-16 rounded-full bg-blue/20 flex items-center justify-center mb-4">
+                <Users className="h-8 w-8 text-blue" />
               </div>
               <h4 className="text-xl font-semibold mb-2">Expert Team</h4>
               <p className="text-gray-400">Data scientists with 10+ years experience</p>
             </div>
             
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-sunset-gold/20 flex items-center justify-center mb-4">
-                <Star className="h-8 w-8 text-sunset-gold" />
+              <div className="w-16 h-16 rounded-full bg-purple/20 flex items-center justify-center mb-4">
+                <Star className="h-8 w-8 text-purple" />
               </div>
               <h4 className="text-xl font-semibold mb-2">Proven Results</h4>
               <p className="text-gray-400">200+ successful client implementations</p>
             </div>
             
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-sunset-orange/20 flex items-center justify-center mb-4">
-                <Brain className="h-8 w-8 text-sunset-orange" />
+              <div className="w-16 h-16 rounded-full bg-blue/20 flex items-center justify-center mb-4">
+                <Brain className="h-8 w-8 text-blue" />
               </div>
               <h4 className="text-xl font-semibold mb-2">Advanced AI</h4>
               <p className="text-gray-400">Cutting-edge machine learning models</p>
             </div>
             
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-sunset-gold/20 flex items-center justify-center mb-4">
-                <Lock className="h-8 w-8 text-sunset-gold" />
+              <div className="w-16 h-16 rounded-full bg-purple/20 flex items-center justify-center mb-4">
+                <Lock className="h-8 w-8 text-purple" />
               </div>
               <h4 className="text-xl font-semibold mb-2">Data Security</h4>
               <p className="text-gray-400">Enterprise-grade security standards</p>
