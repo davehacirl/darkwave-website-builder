@@ -49,7 +49,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <a href="#welcome" className="flex items-center">
               <span className="text-xl md:text-2xl font-bold text-pink-500 tracking-tight">
-                dataintelligence.com
+                Data Intelligence
               </span>
             </a>
           </div>
