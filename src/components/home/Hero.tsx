@@ -1,4 +1,3 @@
-
 import { ArrowDown, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -8,8 +7,8 @@ export default function Hero() {
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Transform Your <span className="text-gradient">Data</span> Into 
-            <span className="text-gradient"> Intelligence</span>
+            <span className="text-gradient">Aidan McHugh</span> has great 
+            <span className="text-gradient"> dance moves</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed">
             Unlock the power of advanced analytics and AI-driven insights to make better business decisions.
@@ -31,14 +30,12 @@ export default function Hero() {
           </div>
         </div>
         
-        {/* Animated data elements */}
         <div className="hidden md:block absolute top-1/3 right-10 transform -translate-y-1/2">
           <div className="relative">
             <BarChart3 className="h-14 w-14 text-white/30 animate-pulse-slow" style={{ animationDelay: '1s' }} />
           </div>
         </div>
         
-        {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ArrowDown className="h-10 w-10 text-white/50" />
         </div>
