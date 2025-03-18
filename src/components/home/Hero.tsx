@@ -8,8 +8,8 @@ export default function Hero() {
       <div className="section-container relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Transform Your <span className="text-gradient">Data</span> Into 
-            <span className="text-gradient"> Intelligence</span>
+            Louis Hackett has <span className="text-gradient">great</span> dance 
+            <span className="text-gradient"> moves</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed">
             Unlock the power of advanced analytics and AI-driven insights to make better business decisions.
