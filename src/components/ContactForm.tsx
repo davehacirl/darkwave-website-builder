@@ -52,7 +52,7 @@ export default function ContactForm() {
               name="name"
               placeholder="Your Name"
               required
-              className="bg-dark-accent/50 border-white/10 focus:border-white"
+              className="bg-sunset-blue-dark/50 border-sunset-orange/10 focus:border-sunset-orange"
               value={formData.name}
               onChange={handleChange}
             />
@@ -64,7 +64,7 @@ export default function ContactForm() {
               type="email"
               placeholder="Your Email"
               required
-              className="bg-dark-accent/50 border-white/10 focus:border-white"
+              className="bg-sunset-blue-dark/50 border-sunset-orange/10 focus:border-sunset-orange"
               value={formData.email}
               onChange={handleChange}
             />
@@ -76,7 +76,7 @@ export default function ContactForm() {
             name="subject"
             placeholder="Subject"
             required
-            className="bg-dark-accent/50 border-white/10 focus:border-white"
+            className="bg-sunset-blue-dark/50 border-sunset-orange/10 focus:border-sunset-orange"
             value={formData.subject}
             onChange={handleChange}
           />
@@ -87,7 +87,7 @@ export default function ContactForm() {
             name="message"
             placeholder="Your Message"
             required
-            className="min-h-[120px] bg-dark-accent/50 border-white/10 focus:border-white"
+            className="min-h-[120px] bg-sunset-blue-dark/50 border-sunset-orange/10 focus:border-sunset-orange"
             value={formData.message}
             onChange={handleChange}
           />
@@ -96,7 +96,7 @@ export default function ContactForm() {
       <Button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-white hover:bg-gray-200 text-black font-medium"
+        className="w-full bg-sunset-orange hover:bg-sunset-orange-light text-sunset-blue-dark font-medium"
       >
         {isSubmitting ? (
           <>

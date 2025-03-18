@@ -4,13 +4,13 @@ import ContactForm from '@/components/ContactForm';
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-20 bg-dark-accent/30">
+    <section id="contact" className="py-20 bg-sunset-blue-dark/70">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Contact <span className="text-gradient">Us</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue to-purple mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-sunset-orange to-sunset-gold mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
             Have questions or ready to start your data intelligence journey? Get in touch with our team.
           </p>
@@ -26,8 +26,8 @@ export default function ContactSection() {
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-blue/20 flex items-center justify-center">
-                    <MapPin className="h-6 w-6 text-blue" />
+                  <div className="w-12 h-12 rounded-full bg-sunset-orange/20 flex items-center justify-center">
+                    <MapPin className="h-6 w-6 text-sunset-orange" />
                   </div>
                 </div>
                 <div className="ml-6">
@@ -38,8 +38,8 @@ export default function ContactSection() {
               
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-purple/20 flex items-center justify-center">
-                    <Phone className="h-6 w-6 text-purple" />
+                  <div className="w-12 h-12 rounded-full bg-sunset-gold/20 flex items-center justify-center">
+                    <Phone className="h-6 w-6 text-sunset-gold" />
                   </div>
                 </div>
                 <div className="ml-6">
@@ -50,8 +50,8 @@ export default function ContactSection() {
               
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-blue/20 flex items-center justify-center">
-                    <Mail className="h-6 w-6 text-blue" />
+                  <div className="w-12 h-12 rounded-full bg-sunset-orange/20 flex items-center justify-center">
+                    <Mail className="h-6 w-6 text-sunset-orange" />
                   </div>
                 </div>
                 <div className="ml-6">
